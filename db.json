@@ -3,7 +3,8 @@
     {
       "id": 1,
       "username": "Dean",
-      "affirmations": []
+      "affirmations": [],
+      "moods": ["Happy"]
     }
   ],
   "moods": [
