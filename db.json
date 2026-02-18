@@ -3,7 +3,8 @@
     {
       "id": 1,
       "username": "Dean",
-      "affirmations": []
+      "affirmations": [],
+      "moods": ["Happy"]
     }
   ],
   "moods": [
@@ -80,11 +81,11 @@
       "category": "Negative"
     }
   ],
-  "quiz_users": [
+  "shelf_help_users": [
     {
       "id": 1,
       "username": "Dean",
-      "highscore": 0
+      "collection": []
     }
   ],
   "shelf_help_books": [
