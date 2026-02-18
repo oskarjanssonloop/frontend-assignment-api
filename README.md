@@ -7,7 +7,7 @@ The Assignment API will be used to complete each of the assignments using JavaSc
 In order to use the API, you will require the following:
 1. Install [Git](https://git-scm.com/) 
 2. Install [NodeJS LTS](https://nodejs.org/en/) with npm **(It must be the LTS version.)**
-3. Create an account on [Glitch](https://glitch.com/) (free)
+3. Create an account on [Render](https://render.com/) (free)
 
 ## Instructions
 Follow the instructions below to get your API set up and ready for use.
@@ -17,10 +17,10 @@ Follow the instructions below to get your API set up and ready for use.
 
 ### Deploying to Glitch
 
-1. Go to [Glitch.com](https://glitch.com/) and sign in.
+1. Go to https://render.com/ and sign in.
 2. In the upper-right corner, select **New Project** > **Import from GitHub**.
 3. In the import field, enter the URL of your forked repository (e.g., `https://github.com/your-username/assignment-api`) and click **OK**.
-4. Glitch will import the repository and automatically set up the project.
+4. Render will import the repository and automatically set up the project.
 5. Once the project has finished loading, click on **Tools** at the bottom of the screen, then **Terminal**.
 
 ### Configuring Environment Variables
@@ -36,7 +36,7 @@ Follow the instructions below to get your API set up and ready for use.
 
 ### Starting the API
 
-1. In Glitch, open the `package.json` file and check that the `"start"` script is configured as follows:
+1. In Render, open the `package.json` file and check that the `"start"` script is configured as follows:
    ```json
    "scripts": {
      "start": "json-server --watch db.json --port 3000"
